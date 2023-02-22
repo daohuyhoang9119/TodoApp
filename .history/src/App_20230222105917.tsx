@@ -14,7 +14,7 @@ function App() {
           <TaskItem />
           <TaskItem />
         </div>
-        <div className="right"></div>
+        <div className="left"></div>
       </main>
     </div>
   );

@@ -6,15 +6,12 @@ function App() {
   return (
     <div className="w-full h-full p-20 bg-gray-100">
       <Header />
-      <main className="mx-5">
-        <div className="left">
-          <TaskItem />
-          <TaskItem />
-          <TaskItem />
-          <TaskItem />
-          <TaskItem />
-        </div>
-        <div className="right"></div>
+      <main>
+        <TaskItem />
+        <TaskItem />
+        <TaskItem />
+        <TaskItem />
+        <TaskItem />
       </main>
     </div>
   );

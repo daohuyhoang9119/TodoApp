@@ -16,7 +16,7 @@ function TaskItem() {
           By the time a prospect arives at your signup page, in most cases,
           they'v already evaluate...
         </Text>
-        <div className="py-3">
+        <div className="">
           <Tag color="success" className="">
             Design
           </Tag>

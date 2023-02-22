@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Typography, Checkbox, Tag } from "antd";
-import { LikeOutlined } from "@ant-design/icons";
+
 const { Title, Text } = Typography;
 function TaskItem() {
   return (
@@ -16,10 +16,8 @@ function TaskItem() {
           By the time a prospect arives at your signup page, in most cases,
           they'v already evaluate...
         </Text>
-        <div className="py-3">
-          <Tag color="success" className="">
-            Design
-          </Tag>
+        <div className="">
+          <Tag color="success">Design</Tag>
         </div>
       </div>
     </div>
